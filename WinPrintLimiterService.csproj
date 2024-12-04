@@ -44,11 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="WinPrintLimiter.cs">
+    <Compile Include="WinPrintLimiterService.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="WinPrintLimiter.Designer.cs">
-      <DependentUpon>WinPrintLimiter.cs</DependentUpon>
+    <Compile Include="WinPrintLimiterService.Designer.cs">
+      <DependentUpon>WinPrintLimiterService.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

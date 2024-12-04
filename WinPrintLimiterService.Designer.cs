@@ -1,6 +1,6 @@
 ﻿namespace WinPrintLimiterService
 {
-    partial class WinPrintLimiter
+    partial class WinPrintLimiterService
     {
         /// <summary> 
         /// Wymagana zmienna projektanta.

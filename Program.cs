@@ -17,7 +17,7 @@ namespace WinPrintLimiterService
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new WinPrintLimiter()
+                new WinPrintLimiterService()
             };
             ServiceBase.Run(ServicesToRun);
         }
