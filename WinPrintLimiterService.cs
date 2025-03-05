@@ -10,12 +10,12 @@ using System.Threading.Tasks;
 
 namespace WinPrintLimiterService
 {
-    public partial class WinPrintLimiter : ServiceBase
+    public partial class WinPrintLimiterService : ServiceBase
     {
 
 
 
-        public WinPrintLimiter()
+        public WinPrintLimiterService()
         {
             InitializeComponent();
         }
