@@ -5,11 +5,13 @@ VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinPrintLimiterService", "WinPrintLimiterService.csproj", "{AD421F2F-12DF-4FD3-9E95-6A32E7732E51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinPrintLimiter", "..\WinPrintLimiter\WinPrintLimiter.csproj", "{A34A4BE1-A747-4331-AC86-8F29C2B59F12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinPrintLimiter", "..\WinPrintLimiter\WinPrintLimiter.csproj", "{A34A4BE1-A747-4331-AC86-8F29C2B59F12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinPrintLimiterInstaller", "..\WinPrintLimiterInstaller\WinPrintLimiterInstaller.csproj", "{29C6D1B8-DB70-4AC0-BA03-E7C3A0FB6A78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinPrintLimiterInstaller", "..\WinPrintLimiterInstaller\WinPrintLimiterInstaller.csproj", "{29C6D1B8-DB70-4AC0-BA03-E7C3A0FB6A78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinPrintLimiterControlServer", "..\WinPrintLimiterControlServer\WinPrintLimiterControlServer.csproj", "{6842C484-04AC-4D01-97FB-823FABB9ECCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinPrintLimiterControlServer", "..\WinPrintLimiterControlServer\WinPrintLimiterControlServer.csproj", "{6842C484-04AC-4D01-97FB-823FABB9ECCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintLimiterApi", "..\PrintLimiterApi\PrintLimiterApi.csproj", "{6CB7B88A-5837-4F9D-A8D4-1A1A6F937391}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6842C484-04AC-4D01-97FB-823FABB9ECCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6842C484-04AC-4D01-97FB-823FABB9ECCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6842C484-04AC-4D01-97FB-823FABB9ECCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB7B88A-5837-4F9D-A8D4-1A1A6F937391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB7B88A-5837-4F9D-A8D4-1A1A6F937391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB7B88A-5837-4F9D-A8D4-1A1A6F937391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB7B88A-5837-4F9D-A8D4-1A1A6F937391}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
